@@ -1,8 +1,8 @@
 //variables
 
-let btn = document.querySelector("#new-quote");
-let quote = document.querySelector(".quote");
-let person = document.querySelector(".person");
+let btn = document.getElementById("new-quote");
+let quote = document.getElementsByClassName("quote")[0];
+let person = document.getElementsByClassName("person")[0];
 
 const quotes = [
   {
